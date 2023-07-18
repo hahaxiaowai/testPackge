@@ -6,9 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hahaxiaowai/testPackge.git"
+  },
+  "publishConfig": {
+    "@hahaxiaowai:registry": "https://npm.pkg.github.com"
   },
   "author": "",
   "license": "ISC",
